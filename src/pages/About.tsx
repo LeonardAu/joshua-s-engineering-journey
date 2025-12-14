@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion';
-import { GraduationCap, Users } from 'lucide-react';
-import PageLayout from '@/components/PageLayout';
-import ParallaxHero from '@/components/ParallaxHero';
-import Section from '@/components/Section';
-import heroAbout from '@/assets/hero-about.jpg';
+import { motion } from "framer-motion";
+import { GraduationCap, Users } from "lucide-react";
+import PageLayout from "@/components/PageLayout";
+import ParallaxHero from "@/components/ParallaxHero";
+import Section from "@/components/Section";
+import heroAbout from "@/assets/hero-about.jpg";
 
 const About = () => {
   return (
@@ -23,9 +23,12 @@ const About = () => {
             viewport={{ once: true }}
             className="aspect-[3/4] rounded-xl overflow-hidden bg-muted shadow-lg"
           >
-            <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-              <span className="text-muted-foreground text-lg italic">Your Photo Here</span>
-            </div>
+            <img
+              src="/assets/hero-about.jpg"
+              alt="Your photo"
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 30 }}
@@ -36,17 +39,18 @@ const About = () => {
               Leonard Joshua Bulawan
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I am a passionate and driven Chemical Engineering student at the University 
-              of Santo Tomas, dedicated to applying scientific principles to solve 
-              real-world problems. My journey in engineering has been shaped by curiosity, 
-              perseverance, and a commitment to excellence.
+              I am a passionate and driven Chemical Engineering student at the
+              University of Santo Tomas, dedicated to applying scientific
+              principles to solve real-world problems. My journey in engineering
+              has been shaped by curiosity, perseverance, and a commitment to
+              excellence.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Through my academic experiences and extracurricular involvement, I have 
-              developed strong analytical skills, leadership abilities, and a deep 
-              appreciation for collaborative work. I believe that engineering is not 
-              just about technical knowledge but also about making meaningful contributions 
-              to society.
+              Through my academic experiences and extracurricular involvement, I
+              have developed strong analytical skills, leadership abilities, and
+              a deep appreciation for collaborative work. I believe that
+              engineering is not just about technical knowledge but also about
+              making meaningful contributions to society.
             </p>
           </motion.div>
         </div>
@@ -69,16 +73,21 @@ const About = () => {
             >
               <div className="flex items-start gap-6">
                 <div className="w-20 h-20 rounded-lg bg-muted flex items-center justify-center flex-shrink-0">
-                  <span className="text-xs text-center text-muted-foreground px-2">School Logo</span>
+                  <span className="text-xs text-center text-muted-foreground px-2">
+                    School Logo
+                  </span>
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-semibold text-primary mb-1">
                     Rizal High School
                   </h3>
-                  <p className="text-secondary font-medium">Senior High School</p>
+                  <p className="text-secondary font-medium">
+                    Senior High School
+                  </p>
                   <p className="text-sm text-muted-foreground mt-2">
-                    Completed my senior high school education with a focus on STEM strand, 
-                    building a strong foundation in mathematics and sciences.
+                    Completed my senior high school education with a focus on
+                    STEM strand, building a strong foundation in mathematics and
+                    sciences.
                   </p>
                 </div>
               </div>
@@ -94,16 +103,21 @@ const About = () => {
             >
               <div className="flex items-start gap-6">
                 <div className="w-20 h-20 rounded-lg bg-muted flex items-center justify-center flex-shrink-0">
-                  <span className="text-xs text-center text-muted-foreground px-2">UST Logo</span>
+                  <span className="text-xs text-center text-muted-foreground px-2">
+                    UST Logo
+                  </span>
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-semibold text-primary mb-1">
                     University of Santo Tomas
                   </h3>
-                  <p className="text-secondary font-medium">B.S. Chemical Engineering</p>
+                  <p className="text-secondary font-medium">
+                    B.S. Chemical Engineering
+                  </p>
                   <p className="text-sm text-muted-foreground mt-2">
-                    Currently pursuing my degree in Chemical Engineering, developing 
-                    expertise in chemical processes, materials science, and engineering design.
+                    Currently pursuing my degree in Chemical Engineering,
+                    developing expertise in chemical processes, materials
+                    science, and engineering design.
                   </p>
                 </div>
               </div>
@@ -123,16 +137,19 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-6">
           {[
             {
-              name: 'UST Engineering Student Council',
-              description: 'Contributing to student governance and engineering community initiatives',
+              name: "UST Engineering Student Council",
+              description:
+                "Contributing to student governance and engineering community initiatives",
             },
             {
-              name: 'UST Chemical Engineering Society',
-              description: 'Engaging with fellow ChE students in academic and social activities',
+              name: "UST Chemical Engineering Society",
+              description:
+                "Engaging with fellow ChE students in academic and social activities",
             },
             {
-              name: 'Operations Research Society of the Philippines – UST Chapter',
-              description: 'Exploring optimization and decision-making methodologies',
+              name: "Operations Research Society of the Philippines – UST Chapter",
+              description:
+                "Exploring optimization and decision-making methodologies",
             },
           ].map((org, index) => (
             <motion.div
