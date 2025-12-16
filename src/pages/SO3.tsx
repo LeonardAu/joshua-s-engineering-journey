@@ -4,6 +4,8 @@ import Section from '@/components/Section';
 import ContentCard from '@/components/ContentCard';
 import ReflectionBox from '@/components/ReflectionBox';
 import heroCommunicate from '@/assets/hero-communicate.jpg';
+import advoPlanPdf from '@/mats/so3_ADVOPLAN.pdf';
+import { ExternalLink } from 'lucide-react';
 
 const SO3 = () => {
   return (
@@ -42,10 +44,23 @@ const SO3 = () => {
               creating presentation materials and developing key messages for 
               different audiences.
             </p>
-            <div className="mt-4 p-4 bg-muted rounded-lg">
-              <p className="text-sm text-muted-foreground italic">
-                📄 PowerPoint PDF will be embedded here
-              </p>
+            <div className="mt-4 rounded-lg overflow-hidden border border-border">
+              <iframe
+                src={advoPlanPdf}
+                className="w-full h-[600px]"
+                title="Advocacy Plan PDF"
+              />
+            </div>
+            <div className="mt-3 flex justify-center">
+              <a 
+                href={advoPlanPdf} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+              >
+                <ExternalLink className="w-4 h-4" />
+                Open PDF in New Tab
+              </a>
             </div>
             <ReflectionBox
               text="Creating the advocacy plan showed me that communication is strategic. Different audiences require different approaches, and effective communicators tailor their messages accordingly. I learned to think about my audience first, then craft messages that would resonate with their values and concerns. This skill is essential for engineers who must often explain technical concepts to non-technical stakeholders."

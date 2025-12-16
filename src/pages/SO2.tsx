@@ -5,6 +5,7 @@ import ContentCard from '@/components/ContentCard';
 import ReflectionBox from '@/components/ReflectionBox';
 import heroDesign from '@/assets/hero-design.jpg';
 import fndMathPdf from '@/mats/so2_FNDMATH.pdf';
+import { ExternalLink } from 'lucide-react';
 
 const SO2 = () => {
   return (
@@ -30,6 +31,17 @@ const SO2 = () => {
               className="w-full h-[600px]"
               title="Foundation Math Final Project PDF"
             />
+          </div>
+          <div className="mt-3 flex justify-center">
+            <a 
+              href={fndMathPdf} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+            >
+              <ExternalLink className="w-4 h-4" />
+              Open PDF in New Tab
+            </a>
           </div>
           <ReflectionBox
             text="This project was my first significant experience in engineering design. I learned that design is not just about finding a solution but finding the best solution given multiple constraints. The process of iterating through different approaches, testing them, and refining based on results taught me the importance of systematic design thinking."
