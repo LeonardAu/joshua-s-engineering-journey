@@ -4,6 +4,7 @@ import Section from '@/components/Section';
 import ContentCard from '@/components/ContentCard';
 import ReflectionBox from '@/components/ReflectionBox';
 import heroDesign from '@/assets/hero-design.jpg';
+import fndMathPdf from '@/mats/so2_FNDMATH.pdf';
 
 const SO2 = () => {
   return (
@@ -23,10 +24,12 @@ const SO2 = () => {
             apply mathematical principles creatively while considering practical 
             constraints and real-world applications.
           </p>
-          <div className="mt-4 p-4 bg-muted rounded-lg">
-            <p className="text-sm text-muted-foreground italic">
-              📄 PDF document will be embedded here
-            </p>
+          <div className="mt-4 rounded-lg overflow-hidden border border-border">
+            <iframe
+              src={fndMathPdf}
+              className="w-full h-[600px]"
+              title="Foundation Math Final Project PDF"
+            />
           </div>
           <ReflectionBox
             text="This project was my first significant experience in engineering design. I learned that design is not just about finding a solution but finding the best solution given multiple constraints. The process of iterating through different approaches, testing them, and refining based on results taught me the importance of systematic design thinking."
