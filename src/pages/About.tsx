@@ -24,8 +24,8 @@ const About = () => {
             className="aspect-[3/4] rounded-xl overflow-hidden bg-muted shadow-lg"
           >
             <img
-              src="/assets/hero-about.jpg"
-              alt="Your photo"
+              src="/mats/about_ME.jpg"
+              alt="My Photo"
               className="w-full h-full object-cover"
               loading="lazy"
             />
@@ -73,9 +73,12 @@ const About = () => {
             >
               <div className="flex items-start gap-6">
                 <div className="w-20 h-20 rounded-lg bg-muted flex items-center justify-center flex-shrink-0">
-                  <span className="text-xs text-center text-muted-foreground px-2">
-                    School Logo
-                  </span>
+                  <img
+                    src="/mats/about_RHS.jpg"
+                    alt="RHS logo"
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-semibold text-primary mb-1">
@@ -103,9 +106,12 @@ const About = () => {
             >
               <div className="flex items-start gap-6">
                 <div className="w-20 h-20 rounded-lg bg-muted flex items-center justify-center flex-shrink-0">
-                  <span className="text-xs text-center text-muted-foreground px-2">
-                    UST Logo
-                  </span>
+                  <img
+                    src="/mats/about_UST.jpg"
+                    alt="UST logo"
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
                 </div>
                 <div>
                   <h3 className="font-serif text-xl font-semibold text-primary mb-1">
