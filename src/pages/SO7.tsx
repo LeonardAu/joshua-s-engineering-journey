@@ -6,9 +6,9 @@ import ReflectionBox from "@/components/ReflectionBox";
 import heroLearn from "@/assets/hero-learn.jpg";
 import so7ROTC1 from "@/mats/so7_ROTC1.jpg";
 import so7ROTC2 from "@/mats/so7_ROTC2.jpg";
-import so7ACADS1 from "@/mats/ACADS1.jpeg";
-import so7ACADS2 from "@/mats/ACADS2.jpeg";
-import so7ACADS3 from "@/mats/ACADS3.jpeg";
+import so7ACADS1 from "@/mats/so7_ACADS1.jpeg";
+import so7ACADS2 from "@/mats/so7_ACADS2.jpeg";
+import so7ACADS3 from "@/mats/so7_ACADS3.jpeg";
 
 const SO7 = () => {
   return (
@@ -101,3 +101,4 @@ const SO7 = () => {
 };
 
 export default SO7;
+
