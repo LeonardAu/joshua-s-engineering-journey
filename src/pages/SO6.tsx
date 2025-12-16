@@ -5,9 +5,9 @@ import ContentCard from "@/components/ContentCard";
 import ReflectionBox from "@/components/ReflectionBox";
 import heroExperiment from "@/assets/hero-experiment.jpg";
 import so6LAB1 from "@/mats/so6_LAB1.png";
-import so6LAB2 from "@/mats/so6_LAB1.jpg";
-import so6LAB3 from "@/mats/so6_LAB1.jpg";
-import so6LAB4 from "@/mats/so6_LAB1.jpg";
+import so6LAB2 from "@/mats/so6_LAB2.jpg";
+import so6LAB3 from "@/mats/so6_LAB3.jpg";
+import so6LAB4 from "@/mats/so6_LAB4.jpg";
 
 const SO6 = () => {
   return (
@@ -62,3 +62,4 @@ const SO6 = () => {
 };
 
 export default SO6;
+
