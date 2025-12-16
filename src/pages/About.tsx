@@ -4,6 +4,9 @@ import PageLayout from "@/components/PageLayout";
 import ParallaxHero from "@/components/ParallaxHero";
 import Section from "@/components/Section";
 import heroAbout from "@/assets/hero-about.jpg";
+import aboutMe from "@/mats/about_ME.jpg";
+import aboutRHS from "@/mats/about_RHS.jpg";
+import aboutUST from "@/mats/about_UST.png";
 
 const About = () => {
   return (
@@ -24,7 +27,7 @@ const About = () => {
             className="aspect-[3/4] rounded-xl overflow-hidden bg-muted shadow-lg"
           >
             <img
-              src="/mats/about_ME.jpg"
+              src={aboutMe}
               alt="My Photo"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -74,7 +77,7 @@ const About = () => {
               <div className="flex items-start gap-6">
                 <div className="w-20 h-20 rounded-lg bg-muted flex items-center justify-center flex-shrink-0">
                   <img
-                    src="/mats/about_RHS.jpg"
+                    src={aboutRHS}
                     alt="RHS logo"
                     className="w-full h-full object-cover"
                     loading="lazy"
@@ -107,7 +110,7 @@ const About = () => {
               <div className="flex items-start gap-6">
                 <div className="w-20 h-20 rounded-lg bg-muted flex items-center justify-center flex-shrink-0">
                   <img
-                    src="/mats/about_UST.jpg"
+                    src={aboutUST}
                     alt="UST logo"
                     className="w-full h-full object-cover"
                     loading="lazy"
