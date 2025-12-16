@@ -4,9 +4,9 @@ import Section from "@/components/Section";
 import ContentCard from "@/components/ContentCard";
 import ReflectionBox from "@/components/ReflectionBox";
 import heroTeamwork from "@/assets/hero-teamwork.jpg";
-import so5ROTC1 from "@/mats/so5_ROTC1.jpg";
-import so5ROTC2 from "@/mats/so5_ROTC2.jpg";
-import so5ROTC3 from "@/mats/so5_ROTC3.jpg";
+import so5ROTC1 from "@/mats/so5_ROTC1.jpeg";
+import so5ROTC2 from "@/mats/so5_ROTC2.jpeg";
+import so5ROTC3 from "@/mats/so5_ROTC3.jpeg";
 
 const SO5 = () => {
   return (
@@ -72,3 +72,4 @@ const SO5 = () => {
 };
 
 export default SO5;
+
