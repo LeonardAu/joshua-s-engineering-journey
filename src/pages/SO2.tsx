@@ -1,11 +1,14 @@
-import PageLayout from '@/components/PageLayout';
-import ParallaxHero from '@/components/ParallaxHero';
-import Section from '@/components/Section';
-import ContentCard from '@/components/ContentCard';
-import ReflectionBox from '@/components/ReflectionBox';
-import heroDesign from '@/assets/hero-design.jpg';
-import fndMathPdf from '@/mats/so2_FNDMATH.pdf';
-import { ExternalLink } from 'lucide-react';
+import PageLayout from "@/components/PageLayout";
+import ParallaxHero from "@/components/ParallaxHero";
+import Section from "@/components/Section";
+import ContentCard from "@/components/ContentCard";
+import ReflectionBox from "@/components/ReflectionBox";
+import heroDesign from "@/assets/hero-design.jpg";
+import fndMathPdf from "@/mats/so2_FNDMATH.pdf";
+import { ExternalLink } from "lucide-react";
+import so2INTRO1 from "@/mats/so2_INTRO1.jpeg";
+import so2INTRO2 from "@/mats/so2_INTRO2.jpg";
+import so2ROBOTICS from "@/mats/so2_ROBOTICS.jpg";
 
 const SO2 = () => {
   return (
@@ -20,10 +23,10 @@ const SO2 = () => {
       <Section title="Foundation Math Final Project">
         <ContentCard title="Designing a Mathematical Function">
           <p>
-            For our Foundation Math Final Project, I designed a mathematical function 
-            that addressed a specific engineering problem. This project required me to 
-            apply mathematical principles creatively while considering practical 
-            constraints and real-world applications.
+            For our Foundation Math Final Project, I designed a mathematical
+            function that addressed a specific engineering problem. This project
+            required me to apply mathematical principles creatively while
+            considering practical constraints and real-world applications.
           </p>
           <div className="mt-4 rounded-lg overflow-hidden border border-border">
             <iframe
@@ -33,9 +36,9 @@ const SO2 = () => {
             />
           </div>
           <div className="mt-3 flex justify-center">
-            <a 
-              href={fndMathPdf} 
-              target="_blank" 
+            <a
+              href={fndMathPdf}
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
             >
@@ -43,9 +46,7 @@ const SO2 = () => {
               Open PDF in New Tab
             </a>
           </div>
-          <ReflectionBox
-            text="This project was my first significant experience in engineering design. I learned that design is not just about finding a solution but finding the best solution given multiple constraints. The process of iterating through different approaches, testing them, and refining based on results taught me the importance of systematic design thinking."
-          />
+          <ReflectionBox text="This project was my first significant experience in engineering design. I learned that design is not just about finding a solution but finding the best solution given multiple constraints. The process of iterating through different approaches, testing them, and refining based on results taught me the importance of systematic design thinking." />
         </ContentCard>
       </Section>
 
@@ -54,15 +55,12 @@ const SO2 = () => {
           <h2 className="section-title mb-12">Introduction to Engineering</h2>
           <ContentCard
             title="Design Thinking Prototypes"
-            images={[
-              '/placeholder.svg',
-              '/placeholder.svg',
-            ]}
+            images={[so2INTRO1, so2INTRO2]}
           >
             <p>
-              In Introduction to Engineering, I engaged with design thinking 
-              methodologies and created prototypes as part of our coursework. 
-              This hands-on experience allowed me to understand the iterative 
+              In Introduction to Engineering, I engaged with design thinking
+              methodologies and created prototypes as part of our coursework.
+              This hands-on experience allowed me to understand the iterative
               nature of engineering design.
             </p>
           </ContentCard>
@@ -70,17 +68,15 @@ const SO2 = () => {
           <div className="mt-8">
             <ContentCard
               title="What Engineers Do - Robotics Design"
-              images={['/placeholder.svg']}
+              images={[so2ROBOTICS]}
             >
               <p>
-                As part of our presentation on "What Engineers Do," I designed and 
-                presented a robotics concept. This project highlighted the 
-                multidisciplinary nature of engineering and the importance of 
+                As part of our presentation on "What Engineers Do," I designed
+                and presented a robotics concept. This project highlighted the
+                multidisciplinary nature of engineering and the importance of
                 considering user needs in the design process.
               </p>
-              <ReflectionBox
-                text="The Introduction to Engineering course opened my eyes to the breadth of engineering practice. Design thinking, in particular, taught me to empathize with users and stakeholders, define problems clearly, ideate without constraints, and prototype rapidly. These skills are invaluable not just in engineering but in approaching any complex challenge."
-              />
+              <ReflectionBox text="The Introduction to Engineering course opened my eyes to the breadth of engineering practice. Design thinking, in particular, taught me to empathize with users and stakeholders, define problems clearly, ideate without constraints, and prototype rapidly. These skills are invaluable not just in engineering but in approaching any complex challenge." />
             </ContentCard>
           </div>
         </div>
