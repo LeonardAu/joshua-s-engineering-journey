@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/leonardjoshua.bulawan"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors"
@@ -24,14 +24,14 @@ const Footer = () => {
               <Facebook size={20} />
             </a>
             <a
-              href="mailto:leonardjoshua@gmail.com"
+              href="mailto:leonardjoshua.bulawan@ust.edu.ph"
               className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors"
               aria-label="Email"
             >
               <Mail size={20} />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/leojshua/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors"
