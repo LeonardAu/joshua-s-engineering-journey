@@ -4,6 +4,8 @@ import Section from '@/components/Section';
 import ContentCard from '@/components/ContentCard';
 import ReflectionBox from '@/components/ReflectionBox';
 import heroProfessionalism from '@/assets/hero-professionalism.jpg';
+import minsMeetPdf from '@/mats/so4_MINSMEET.pdf';
+import { ExternalLink } from 'lucide-react';
 
 const SO4 = () => {
   return (
@@ -23,10 +25,23 @@ const SO4 = () => {
             accurate representation of discussions, and professional documentation 
             practices.
           </p>
-          <div className="mt-4 p-4 bg-muted rounded-lg">
-            <p className="text-sm text-muted-foreground italic">
-              📄 Meeting minutes PDF will be embedded here
-            </p>
+          <div className="mt-4 rounded-lg overflow-hidden border border-border">
+            <iframe
+              src={minsMeetPdf}
+              className="w-full h-[600px]"
+              title="Minutes of the Meeting PDF"
+            />
+          </div>
+          <div className="mt-3 flex justify-center">
+            <a 
+              href={minsMeetPdf} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+            >
+              <ExternalLink className="w-4 h-4" />
+              Open PDF in New Tab
+            </a>
           </div>
           <ReflectionBox
             text="Taking meeting minutes taught me the importance of accurate documentation in professional settings. Engineers must often record decisions, discussions, and actions for future reference and accountability. This experience reinforced the value of professionalism in even seemingly minor tasks, as proper documentation can have significant implications for project success and organizational memory."
