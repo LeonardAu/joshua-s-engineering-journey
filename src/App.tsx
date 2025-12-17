@@ -14,7 +14,6 @@ import SO5 from "./pages/SO5";
 import SO6 from "./pages/SO6";
 import SO7 from "./pages/SO7";
 import NotFound from "./pages/NotFound";
-import PDFViewer from "./pages/PDFViewer";
 
 const queryClient = new QueryClient();
 
@@ -35,7 +34,6 @@ const App = () => (
           <Route path="/so5" element={<SO5 />} />
           <Route path="/so6" element={<SO6 />} />
           <Route path="/so7" element={<SO7 />} />
-          <Route path="/pdf-viewer" element={<PDFViewer />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
