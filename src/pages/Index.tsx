@@ -92,6 +92,9 @@ const Index = () => {
             src={heroHome}
             alt="Engineering background"
             className="w-full h-[120%] object-cover"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-foreground/50 via-foreground/30 to-background" />
         </motion.div>
@@ -198,6 +201,8 @@ const Index = () => {
                       src={card.image}
                       alt={card.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <span className="text-sm font-medium text-secondary uppercase tracking-wider">
