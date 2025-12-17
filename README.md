@@ -1,4 +1,6 @@
-# Welcome to your Lovable project
+# Joshua's E-Portfolio
+
+Leonard Joshua Bulawan's E-Portfolio showcasing ABET Student Outcomes (SO1-SO7) for B.S. Chemical Engineering at the University of Santo Tomas.
 
 ## Project info
 
