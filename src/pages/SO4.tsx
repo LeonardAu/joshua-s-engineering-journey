@@ -37,7 +37,7 @@ const SO4 = () => {
           </div>
           <div className="mt-3 flex justify-center">
             <a
-              href={`/pdf-viewer?file=${encodeURIComponent(minsMeetPdf)}&title=${encodeURIComponent("Minutes of the Meeting")}`}
+              href={minsMeetPdf}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
