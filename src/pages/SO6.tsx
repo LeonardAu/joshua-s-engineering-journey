@@ -8,6 +8,8 @@ import so6LAB1 from "@/mats/so6_LAB1.png";
 import so6LAB2 from "@/mats/so6_LAB2.jpg";
 import so6LAB3 from "@/mats/so6_LAB3.jpg";
 import so6LAB4 from "@/mats/so6_LAB4.jpg";
+import so6FNDMATH1 from "@/mats/so6_FNDMATH1.jpg";
+import so6FNDMATH2 from "@/mats/so6_FNDMATH2.jpg";
 
 const SO6 = () => {
   return (
@@ -25,7 +27,7 @@ const SO6 = () => {
           images={[so6LAB1, so6LAB2, so6LAB3, so6LAB4]}
         >
           <p>
-            In the Chemistry for Engineers Laboratory, I conducted various
+            In the Chemistry for Engineers Laboratory, we conducted various
             experiments that required careful planning, precise execution, and
             thorough data analysis. These hands-on experiences reinforced
             theoretical concepts and developed my experimental skills.
@@ -45,10 +47,10 @@ const SO6 = () => {
           <h2 className="section-title mb-12">Foundation Math Final Project</h2>
           <ContentCard
             title="Testing the Potentiometer's Resistance"
-            images={["/placeholder.svg", "/placeholder.svg"]}
+            images={[so6FNDMATH1, so6FNDMATH2]}
           >
             <p>
-              As part of our Foundation Math Final Project, I conducted
+              As part of our Foundation Math Final Project, we conducted
               experimental testing of a potentiometer's resistance. This
               involved designing the experiment, collecting data, and analyzing
               the results to develop a mathematical function.
@@ -62,4 +64,3 @@ const SO6 = () => {
 };
 
 export default SO6;
-
