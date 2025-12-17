@@ -57,13 +57,9 @@ const SO1 = () => {
       <Section title="Other Subjects">
         <ContentCard title="Additional Coursework">
           <p>
-            Beyond Chemistry and Calculus, I have engaged with various subjects
-            that contribute to my ability to solve complex engineering problems.
-            These include physics, computer programming, and other foundational
-            courses that together build a comprehensive skill set for
-            engineering problem-solving.
+            In Math in the Modern World, we explored the nature of mathematics and its connection to real life through topics such as statistics, logic, and other foundational concepts. It felt nostalgic because it brought back many lessons I learned in high school, but this time with a deeper understanding of why they matter. Similarly, Fundamental Mathematics covered familiar high school topics as a quick but helpful recall—such as set theory, business math, sequences and series, analytic geometry, and trigonometry. Overall, these subjects were similar in content, but they strengthened my foundation and helped lay the groundwork for broader knowledge and improved problem-solving skills.
           </p>
-          <ReflectionBox text="Each subject I have studied contributes to my overall engineering toolkit. The interconnected nature of engineering disciplines means that knowledge from one area often illuminates problems in another. I have learned to appreciate this holistic approach to learning, understanding that true problem-solving ability comes from integrating knowledge across multiple domains." />
+          <ReflectionBox text="Each subject I studied added something to my overall learning toolkit. The topics were mostly familiar, and in many ways it felt nostalgic because it brought back lessons from high school. At the same time, it wasn’t just a repeat—it worked as a quick recall and a stronger foundation. Even if the subjects were kind of similar, they still helped pave the road for my knowledge and understanding, and they reminded me that revisiting the basics can make future learning easier and more meaningful." />
         </ContentCard>
       </Section>
     </PageLayout>
@@ -71,3 +67,4 @@ const SO1 = () => {
 };
 
 export default SO1;
+
