@@ -39,6 +39,9 @@ const ParallaxHero = ({
             src={imageUrl}
             alt=""
             className="w-full h-[130%] object-cover"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
           />
         ) : (
           <div className="w-full h-full gradient-maroon" />

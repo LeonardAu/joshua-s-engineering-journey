@@ -30,6 +30,8 @@ const ContentCard = ({ title, children, images, className = '' }: ContentCardPro
                 src={img}
                 alt={`${title} image ${index + 1}`}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           ))}
