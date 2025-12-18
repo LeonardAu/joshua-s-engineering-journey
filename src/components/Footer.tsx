@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h3 className="font-serif text-lg font-semibold mb-2">University of Santo Tomas</h3>
             <p className="text-primary-foreground/80 text-sm">Faculty of Engineering</p>
-            <p className="text-primary-foreground/60 text-xs mt-1">Manila, Philippines</p>
+            <p className="text-primary-foreground/60 text-xs mt-1">España Boulevard, Manila, Philippines</p>
           </div>
 
           {/* Social Links */}
@@ -47,7 +47,10 @@ const Footer = () => {
               © {new Date().getFullYear()} Leonard Joshua Bulawan
             </p>
             <p className="text-xs text-primary-foreground/60 mt-1">
-              B.S. Chemical Engineering
+              1CHE-A
+            </p>
+            <p className="text-xs text-primary-foreground/60 mt-1">
+              leonardjoshua.bulawan@ust.edu.ph
             </p>
           </div>
         </div>
