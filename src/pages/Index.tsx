@@ -109,7 +109,7 @@ const Index = () => {
             transition={{ delay: 0.3 }}
             className="text-primary-foreground/80 text-sm md:text-base uppercase tracking-[0.4em] mb-6"
           >
-            Chemical Engineering Student
+            B.S. Chemical Engineering
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
